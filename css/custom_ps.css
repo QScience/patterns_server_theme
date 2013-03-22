@@ -1,0 +1,49 @@
+
+#edit-patterns-search .control-group {
+	float: left;
+	margin-right: 5px;
+}
+
+#edit-patterns-search #edit-actions {
+	display: inline;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+#edit-patterns-comment #edit-actions {
+	display: block;
+}
+
+.download-link {
+	text-indent: -9999px;
+	display: block;
+	background: url('../img/download02.png') no-repeat;
+	width: 22px;
+	height: 20px;
+	margin-left: 25%;
+}
+
+.rate-link {
+	text-indent: -9999px;
+	display: block;
+	background: url('../img/like01.png') no-repeat;
+	width: 24px;
+	height: 25px;
+	margin-left: 25%;
+}
+
+.rate-link-t {
+	text-indent: -9999px;
+	display: block;
+	background: url('../img/unlike01.png') no-repeat;
+	width: 24px;
+	height: 25px;
+	margin-left: 25%;
+}
+
+#all_patterns_div {
+	margin-bottom: 30px;
+}
