@@ -9,7 +9,6 @@ jQuery(document).ready(function() {
 			jQuery(ele).addClass('rate-link-t');
 		}
 	});
-
     rate_link.click(function() {
 		if (jQuery(this).text() == "Like") {
 			jQuery(this).text("Unlike");
