@@ -30,7 +30,7 @@ table {
 	text-indent: -9999px;
 	display: block;
 	background: url('../img/like01.png') no-repeat;
-	width: 24px;
+	width: 27px;
 	height: 25px;
 	margin-left: 25%;
 }
@@ -39,7 +39,7 @@ table {
 	text-indent: -9999px;
 	display: block;
 	background: url('../img/unlike01.png') no-repeat;
-	width: 24px;
+	width: 27px;
 	height: 25px;
 	margin-left: 25%;
 }
@@ -50,4 +50,9 @@ table {
 
 .hero-unit {
 	padding: 20px;
+}
+
+.table th, .table td {
+	text-align: center;
+}
 }
