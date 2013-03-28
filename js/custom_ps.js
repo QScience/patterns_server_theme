@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
 	var server_detail = jQuery('#all_patterns_div').attr('id');
 	if (server_detail!='all_patterns_div') {
 		var sd = jQuery('#one_pattern_div').find('.server_detail');
-		sd.text('Back to Server');
+		sd.text('Home');
 		sd.attr('href', sd.attr('name'));
 	}
 	
