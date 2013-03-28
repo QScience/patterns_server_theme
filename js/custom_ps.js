@@ -32,4 +32,13 @@ jQuery(document).ready(function() {
         return false;
     });
 
+	//server or detail link
+	var server_detail = jQuery('#all_patterns_div').attr('id');
+	if (server_detail!='all_patterns_div') {
+		var sd = jQuery('#one_pattern_div').find('.server_detail');
+		sd.text('Back to Server');
+		sd.attr('href', sd.attr('name'));
+	}
+	
+
 });
