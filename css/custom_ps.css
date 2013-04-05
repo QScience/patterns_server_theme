@@ -17,33 +17,6 @@ table {
 	display: block;
 }
 
-.download-link {
-	text-indent: -9999px;
-	display: block;
-	background: url('../img/download02.png') no-repeat;
-	width: 22px;
-	height: 20px;
-	margin-left: 25%;
-}
-
-.liked-link {
-	text-indent: -9999px;
-	display: block;
-	background: url('../img/like01.png') no-repeat;
-	width: 27px;
-	height: 25px;
-	margin-left: 25%;
-}
-
-.liked-link-t {
-	text-indent: -9999px;
-	display: block;
-	background: url('../img/unlike01.png') no-repeat;
-	width: 27px;
-	height: 25px;
-	margin-left: 25%;
-}
-
 #all_patterns_div {
 	margin-bottom: 30px;
 }
@@ -54,5 +27,4 @@ table {
 
 .table th, .table td {
 	text-align: center;
-}
 }
