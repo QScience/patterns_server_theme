@@ -28,3 +28,11 @@ table {
 .table th, .table td {
 	text-align: center;
 }
+
+.liked-link {
+	margin-left: 25%;
+}
+
+.liked-link-t {
+	margin-left: 25%;
+}
