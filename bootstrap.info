@@ -1,5 +1,5 @@
-name = Bootstrap
-description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+name = Patterns_server
+description = the module patterns_server's page theme.
 core = 7.x
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
@@ -60,7 +60,7 @@ exclude[css][] = 'modules/update/update.css'
 exclude[css][] = 'modules/user/user.css'
 
 ; Information added by drupal.org packaging script on 2013-03-13
-version = "7.x-2.0-beta3"
+version = "1.0"
 core = "7.x"
 project = "bootstrap"
 datestamp = "1363201813"
