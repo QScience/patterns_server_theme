@@ -2,6 +2,14 @@ jQuery(document).ready(function() {
 	jQuery('.breadcrumb').css('display', 'none');
 	jQuery('.page-header').css('display', 'none');
 
+
+	//var edit_search=jQuery("#patterns-server-search-form #edit-search");
+	//edit_search.css("width", "");
+	//var edit_selected=jQuery("#patterns-server-search-form #edit-selected");
+	//edit_selected.css("width", "");
+	//var edit_submit=jQuery("#patterns-server-search-form #edit-submit");
+	//edit_submit.css("width", "");
+
 	//like
 	//var liked_link = jQuery(".pattern_row .liked-link");
 	//jQuery.each( liked_link , function(ix,ele){
@@ -32,6 +40,8 @@ jQuery(document).ready(function() {
     //    return false;
     //});
 
-	
+	jQuery("#patterns-server-search-form #edit-search").removeClass("edit-search-w");
+	jQuery("#patterns-server-search-form #edit-selected").removeClass("edit-selected-w");
+	jQuery("#patterns-server-search-form #edit-submit").removeClass("edit-submit-w");
 
 });
