@@ -36,3 +36,12 @@ table {
 .liked-link-t {
 	margin-left: 25%;
 }
+
+#patternentity-search .control-group{
+	float: left;
+	margin-right: 5px;
+}
+
+#patternentity-search #edit-actions {
+	display: inline;
+}
