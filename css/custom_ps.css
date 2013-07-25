@@ -45,3 +45,8 @@ table {
 #patternentity-search #edit-actions {
 	display: inline;
 }
+
+#patternentity-page-pattern-field ul, ol {
+	    margin: 0 0 10px 25px;
+		    padding: 0;
+}

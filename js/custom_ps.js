@@ -46,5 +46,6 @@ jQuery(document).ready(function() {
 
 	jQuery("#patternentity-search #edit-search").css("width", "");
 	jQuery("#patternentity-search #edit-search").addClass("span7");
+	jQuery("#patternentity-page-pattern-field").addClass("hero-unit");
 
 });
