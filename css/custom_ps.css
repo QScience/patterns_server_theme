@@ -37,16 +37,16 @@ table {
 	margin-left: 25%;
 }
 
-#patternentity-search .control-group{
+#patterns-server-search .control-group{
 	float: left;
 	margin-right: 5px;
 }
 
-#patternentity-search #edit-actions {
+#patterns-server-search #edit-actions {
 	display: inline;
 }
 
-#patternentity-page-pattern-field ul, ol {
+#patterns-server-page-pattern-field ul, ol {
 	    margin: 0 0 10px 25px;
 		    padding: 0;
 }

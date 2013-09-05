@@ -44,8 +44,8 @@ jQuery(document).ready(function() {
 	jQuery("#patterns-server-search-form #edit-selected").removeClass("edit-selected-w");
 	jQuery("#patterns-server-search-form #edit-submit").removeClass("edit-submit-w");
 
-	jQuery("#patternentity-search #edit-search").css("width", "");
-	jQuery("#patternentity-search #edit-search").addClass("span7");
-	jQuery("#patternentity-page-pattern-field").addClass("hero-unit");
+	jQuery("#patterns-server-search #edit-search").css("width", "");
+	jQuery("#patterns-server-search #edit-search").addClass("span7");
+	jQuery("#patterns-server-page-pattern-field").addClass("hero-unit");
 
 });
