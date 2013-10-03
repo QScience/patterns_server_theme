@@ -37,6 +37,16 @@ table {
 	margin-left: 25%;
 }
 
+#d2d-server-search .control-group{
+	float: left;
+	margin-right: 5px;
+}
+
+#d2d-server-search #edit-actions {
+	display: inline;
+}
+
+
 #patterns-server-search .control-group{
 	float: left;
 	margin-right: 5px;
