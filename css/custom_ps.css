@@ -93,3 +93,6 @@ table {
   width: auto;
 }
 
+#patterns_server-patterns-tree-visualization {
+	margin-bottom: 20px;
+}
