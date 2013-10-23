@@ -277,15 +277,16 @@ function bootstrap_css_alter(&$css) {
     $excludes[$theme_path . '/bootstrap/css/bootstrap-responsive.css'] = FALSE ;
     
     //and then add the cdn css
-    $cdn_url = '//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css';
-    $css[$cdn_url]['data'] = $cdn_url;
-    $css[$cdn_url]['type'] = 'external';
-    $css[$cdn_url]['every_page'] = TRUE;
-    $css[$cdn_url]['media'] = 'all';
-    $css[$cdn_url]['preprocess'] = TRUE;
-    $css[$cdn_url]['group'] = CSS_THEME;
-    $css[$cdn_url]['weight'] = -1;
-    $css[$cdn_url]['browsers'] = array('IE' => TRUE, '!IE' => TRUE);
+    //$cdn_url = '//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css';
+    //$cdn_url = $theme_path . '/css/bootstrap-combined.min.css';
+    //$css[$cdn_url]['data'] = $cdn_url;
+    //$css[$cdn_url]['type'] = 'external';
+    //$css[$cdn_url]['every_page'] = TRUE;
+    //$css[$cdn_url]['media'] = 'all';
+    //$css[$cdn_url]['preprocess'] = TRUE;
+    //$css[$cdn_url]['group'] = CSS_THEME;
+    //$css[$cdn_url]['weight'] = -1;
+    //$css[$cdn_url]['browsers'] = array('IE' => TRUE, '!IE' => TRUE);
   }
   $css = array_diff_key($css, $excludes);
 }
