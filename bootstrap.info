@@ -1,5 +1,5 @@
-name = Bootstrap
-description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+name = Patterns Server Theme 
+description = Built based on bootstrap 7.x-2.2
 core = 7.x
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
@@ -56,4 +56,9 @@ version = "7.x-2.2"
 core = "7.x"
 project = "bootstrap"
 datestamp = "1379796670"
+
+stylesheets[all][] = css/bootstrap-combined.min.css
+stylesheets[all][] = css/custom_ps.css
+
+scripts[] = js/custom_ps.js
 
