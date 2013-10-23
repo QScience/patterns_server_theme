@@ -37,19 +37,9 @@ table {
 	margin-left: 25%;
 }
 
-#d2d-server-search .control-group{
-	float: left;
-	margin-right: 5px;
-}
-
-#d2d-server-search #edit-actions {
-	display: inline;
-}
-
 
 #patterns-server-search .control-group{
 	float: left;
-	margin-right: 5px;
 }
 
 #patterns-server-search #edit-actions {
@@ -95,4 +85,9 @@ table {
 
 #patterns_server-patterns-tree-visualization {
 	margin-bottom: 20px;
+}
+
+#edit-patterns-server-search--2 .form-item-selected{
+  margin-right: 10px;
+  margin-left: 10px;
 }

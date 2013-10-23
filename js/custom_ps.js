@@ -45,15 +45,10 @@ jQuery(document).ready(function() {
 	jQuery("#patterns-server-search-form #edit-submit").removeClass("edit-submit-w");
 
 	jQuery("#patterns-server-search #edit-search").css("width", "");
-	jQuery("#patterns-server-search #edit-search").addClass("span7");
+	jQuery("#patterns-server-search #edit-search").addClass("span");
 	jQuery("#patterns-server-page-pattern-field").addClass("hero-unit");
-
-
-	jQuery("#d2d-server-search #edit-search").removeClass("edit-search-w");
-	jQuery("#d2d-server-search #edit-selected").removeClass("edit-selected-w");
-	jQuery("#d2d-server-search #edit-submit").removeClass("edit-submit-w");
-	jQuery("#d2d-server-search #edit-search").css("width", "");
-	jQuery("#d2d-server-search #edit-search").addClass("span7");
+	jQuery("#patterns-server-search .form-item-search").addClass("span8");
+	jQuery("#patterns-server-search .form-item-selected").addClass("span2");
 
 
 });
