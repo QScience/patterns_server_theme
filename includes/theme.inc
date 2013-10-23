@@ -278,17 +278,17 @@ function bootstrap_css_alter(&$css) {
   // Add Bootstrap CDN file and overrides.
   if (theme_get_setting('cdn_bootstrap')){
     // Add CDN.
-    $cdn = '//netdna.bootstrapcdn.com/twitter-bootstrap/'. theme_get_setting('cdn_bootstrap_version')  .'/css/bootstrap-combined.min.css';
-    $css[$cdn] = array(
-      'data' => $cdn,
-      'type' => 'external',
-      'every_page' => TRUE,
-      'media' => 'all',
-      'preprocess' => FALSE,
-      'group' => CSS_THEME,
-      'browsers' => array('IE' => TRUE, '!IE' => TRUE),
-      'weight' => -2,
-    );
+    //$cdn = '//netdna.bootstrapcdn.com/twitter-bootstrap/'. theme_get_setting('cdn_bootstrap_version')  .'/css/bootstrap-combined.min.css';
+    //$css[$cdn] = array(
+    //  'data' => $cdn,
+    //  'type' => 'external',
+    //  'every_page' => TRUE,
+    //  'media' => 'all',
+    //  'preprocess' => FALSE,
+    //  'group' => CSS_THEME,
+    //  'browsers' => array('IE' => TRUE, '!IE' => TRUE),
+    //  'weight' => -2,
+    //);
     // Add overrides.
     $override = $theme_path . '/css/overrides.css';
     $css[$override] = array(
